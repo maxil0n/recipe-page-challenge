@@ -1,0 +1,85 @@
+body {
+    background: hsl(30, 54%, 90%);
+    align-content: center;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 35px;
+    width: 800px;
+    margin-inline: auto;
+}
+
+.header__title {
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+.header__description {
+    font-family: 'Outfit';
+}
+
+.header__image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.container__title {
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+.container__title--border {
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.container__title--preparation {
+    font-family: 'Outfit';
+    color: hsl(332, 51%, 32%);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.container__preparation {
+    padding: 10px 20px;
+    background: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+.container__item {
+    font-family: 'Outfit';
+    padding: 5px;
+}
+
+.nutrition__content {
+    font-family: 'Outfit';
+}
+
+.table__item {
+    font-family: 'Outfit';
+}
+
+.table__item--brown {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+
+}
+
+/* @media (min-width: 375px) and (max-width: 450px ) {
+    .header__image {
+        border-radius: 0;
+    }
+
+    .container {
+        border-radius: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+    }
+}
+*/
