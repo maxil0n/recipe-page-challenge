@@ -57,14 +57,24 @@ body {
     font-family: 'Outfit';
 }
 
+.container__table {
+    width: 100%;
+}
+
 .table__item {
     font-family: 'Outfit';
+    width: 50%;
+    padding: 2px;
 }
 
 .table__item--brown {
     color: hsl(14, 45%, 36%);
     font-weight: 600;
+    text-align: left;
+}
 
+.table__item--border {
+    border-bottom: 1px solid #bbb8b8;
 }
 
 /* @media (min-width: 375px) and (max-width: 450px ) {
